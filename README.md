@@ -35,6 +35,7 @@ public class Main {
         /**********
          * 這邊算的是攝氏轉華氏~
          *************/
+         
         //首先我要讓它可以輸出一組數字
         Scanner scn = new Scanner(System.in);
         double v1 = scn.nextDouble();
@@ -49,6 +50,7 @@ public class Main {
         /************************
          * 好，我這邊要算的是兩個整數的合、差及乘積
          ***************************/
+         
         //首先我一樣要讓它給我輸入一組數字，因為題目說是整數，所以我用的是int
         Scanner scn = new Scanner(System.in);
         int v1 = scn.nextInt();
@@ -77,6 +79,7 @@ public class Main {
             * KG -> 磅
             * CM -> 英吋
             ************************************/
+            
         //這邊我需要分別輸入兩組數字
 
         //第一組數字我要輸入的是身高(單位是cm)
