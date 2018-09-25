@@ -83,33 +83,34 @@
 //        System.out.println("體重換算成磅為:\n" + (v2 / 0.454));
 
 /*********************************************
-輸入三邊長，確認是否為合法三角形
-******************************************/
-Scanner scn = new Scanner(System.in);
+  *輸入三邊長，確認是否為合法三角形
+**************************************************/
 
-double a = scn.nextDouble();
+//        Scanner scn = new Scanner(System.in);
 
-Scanner qq = new Scanner(System.in);
+//        double a = scn.nextDouble();
 
-double b = qq.nextDouble();
+//Scanner qq = new Scanner(System.in);
 
-Scanner aa = new Scanner(System.in);
+//double b = qq.nextDouble();
 
-double c = aa.nextDouble();
+//Scanner aa = new Scanner(System.in);
 
-if (((a + b) > c) && ((a + c) > b) && ((b + c) > a) && (a <= b && b <= c))
+//double c = aa.nextDouble();
+
+//if (((a + b) > c) && ((a + c) > b) && ((b + c) > a) && (a <= b && b <= c))
 {
 System.out.println(“True”);
 }
 
-else {
+//else {
 System.out.println(“False”);}
 
 /*********************************
 接連輸入三組數字，各自判斷為平年還是閏年
 *********************************/
 
-#以下要先讓我輸入三組數字
+//以下要先讓我輸入三組數字
 Scanner scn = new Scanner(System.in);
 
 int v1 = scn.nextInt();
