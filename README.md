@@ -21,10 +21,9 @@
 //        System.out.println("每科平均分數為:\n" + ((v1 + v2 + v3) / 3));
 
 ｝｝
-
-        /**********
-                * 這邊算的是攝氏轉華氏~
-                *************/
+        /*****
+                * 這邊算的是攝氏轉華氏
+                ******/
 //        //首先我要讓它可以輸出一組數字
 //        Scanner scn = new Scanner(System.in);
 //        double v1 = scn.nextDouble();
